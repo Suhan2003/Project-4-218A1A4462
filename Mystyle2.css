@@ -1,0 +1,20 @@
+nav{
+    text-align: right;
+    background: black;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+nav ul li{
+    display: inline;
+    padding: 1%;
+}
+nav ul li a{
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+footer{
+    background: black;
+    color: white;
+    text-align: center;
+}

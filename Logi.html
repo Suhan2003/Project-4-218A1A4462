@@ -1,0 +1,71 @@
+<html>
+<head>
+    <title>Place Your Order</title>
+    <link rel="stylesheet" href="Mystyle2.css">
+    <style>
+        .form-center{
+            display:flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="./Home.html"> Home </a></li>
+            <li><a href="./About.html"> About </a></li>
+            <li><a href="./ContactUs.html"> Contact Us</a></li>
+            <li><a href="./Registration.html"> Register </a></li>
+            <li><a href="./Exp11-LoginPage.html"> Login/Sign in </a></li>
+            
+        </ul>
+    </nav>
+    <center>
+    <h2>Place Your Order</h2></center>
+    <div class="form-center">
+    <form action="Ordered.html" method="post">
+        <label>Email id:</label> <input list="email" name="office" id="myofficeid">
+        <datalist id="email">
+            <option value="218A1A4462@risekrishnasaiprakasam.edu.in"></option>
+            <option value="218A1A4463@risekrishnasaiprakasam.edu.in"></option>
+            <option value="218A1A4464@risekrishnasaiprakasam.edu.in"></option>
+            <option value="218A1A4465@risekrishnasaiprakasam.edu.in"></option>
+            <option value="218A1A4454@risekrishnasaiprakasam.edu.in"></option>
+            <option value="218A1A4453@risekrishnasaiprakasam.edu.in"></option>
+            <option value="218A1A4442@risekrishnasaiprakasam.edu.in"></option>
+            <option value="218A1A4458@risekrishnasaiprakasam.edu.in"></option>
+        </datalist><br><br>
+        <label>Enter your Mobile Number :</label><input type="tel" name="personal" id="per1" pattern="[0-9]{10}" title="The Ten digits number"><br><br>
+        <label>Color:</label>
+        <input type="radio" name="Color" value="B">Black
+        <input type="radio" name="Color" value="W">White
+        <input type="radio" name="Color" value="R">Red
+        <input type="radio" name="Color" value="Blue">Blue
+        <input type="radio" name="Color" value="G">Green<br><br>
+        <label>Brand:</label>
+        <select name="Brand">
+            <option value="A">Apple</option>
+            <option value="S">SAMSUNG</option>
+            <option value="O">Oneplus</option>
+            <option value="MI">MI</option>
+            <option value="OP">OPPO</option>
+        </select><br><br>
+        Delivery Date : 
+        <input type="date" name="bname"><br><br>
+        <label>Choose your Product:</label><br>
+        <input type="checkbox" name="lang[]" value="C">Mobile<br>
+        <input type="checkbox" name="lang[]" value="C++">Smart Watch<br>
+        <input type="checkbox" name="lang[]" value="Python">Earpods<br>
+        <input type="checkbox" name="lang[]" value="Java">Laptop<br><br>
+        <label>Model:</label><br>
+        <textarea name="address" cols="75" rows="3">Enter the Complete Details of Your Order...!</textarea><br><br>
+        Purchase: <input type="number" name="items" min="0" max="100" step="1" value="0"> items.<br><br>
+        <label>Address:</label><br>
+        <textarea name="address" cols="75" rows="3">Enter Delivery Adderss...!</textarea><br><br>
+        <input type="submit" value="Submit">
+    </form></div><br><Br><br>
+        <footer>
+            <p><b><center>&copy; Sparks Pvt.Ltd. All Rights are reserved.</center></b></p>
+        </footer>
+</body>
+</html>
